@@ -160,7 +160,7 @@ export class CircularSlider extends React.Component<Props> {
       arcBackgroundColor,
       outerShadow
     } = this.props;
-    const trackWidth = 4;
+    const trackWidth = 1;
     const shadowWidth = 20;
     const trackInnerRadius = size / 2 - trackWidth - shadowWidth;
     const handle1Angle = valueToAngle({
